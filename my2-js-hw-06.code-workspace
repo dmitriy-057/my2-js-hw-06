@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "my2-js-hw-06",
+		"path": "."
+	},
+	{
+		"name": "src",
+		"path": "../../../Downloads/src"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "my2-js-hw-06"
+  }
+}
