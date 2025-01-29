@@ -5,8 +5,11 @@ const spanEl = document.querySelector("#name-output");
 inputEl.addEventListener("input", onInputEl);
 
 function onInputEl() {
-    spanEl.textContent = inputEl.value; 
-    console.log( spanEl.textContent);
-    console.log(inputEl.value);
-
+    if(inputEl.value === '') {
+        spanEl.textContent = "Anonymous";
+    } else {
+     spanEl.textContent = inputEl.value; 
+     console.log(inputEl.value);
+    }
 }
+
